@@ -1,0 +1,113 @@
+
+header{
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+height: 5rem;
+}
+.menu ul li{
+	display: inline;
+	margin-right: 10px;
+margin-left: 10px;
+}
+/*global css*/
+
+/*first section*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+ .first-section{
+ 	background-image: url(./images/5.JPEG);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10rem 0;
+	text-align: center;
+ }
+ .first-section h1{
+	font-size: 5rem;
+
+	margin: 10px 0;
+ }
+ .global-bttn{
+ 	height: 35px;
+ 	width: 120px;
+ 	background-color: black;
+ 	color: white;
+ }
+  .first-section {
+	font-size: 2rem;
+
+	
+ }
+.global-section{
+	padding: 3rem 0;
+
+}
+.global-headding{
+	font-size: 45px;
+	text-align: center;
+
+}
+.global-head-p{
+	color: #7B7B7B;
+	text-align: center;
+}
+.me{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem 0;
+}
+.sub-div2{
+	width: 500px;
+}
+.sub-div2 h2{
+	font-size: 32px;
+
+}
+
+.sub-div2 p{
+	color: #7B7B7B;
+	margin: 15px 0;
+}
+
+/*grid*/
+.grid-container{
+	display: grid;
+grid-template-columns: auto auto auto;
+
+}
+.grid-singel{
+	padding: 50px;
+	text-align: center;
+}
+.icon-size{
+	font-size: 60px;
+}
+.grid-singel h2{
+	margin: 15px 0;
+}
+.grid-singel p{
+	color:#7B7B7B;
+}
+.image-wi{
+	width: 260px;
+}
+form input{
+	width: 252px;
+}
+form{
+	text-align: center;
+	margin-top: 25px;
+}
+form textarea{
+	width: 252px;
+	height: 100px;
+}
+
